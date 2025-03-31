@@ -10,7 +10,7 @@ export const isAdmin = async (req, res, next) => {
 }
 
 export const isAuthenticated = async (req, res, next) => {
-   const token = req.cookies?.ecom_platform;
+   const token = req.cookies?.cloudinary_example;
 
    if (!token){
       return next (new ErrorHandler('Must be signed in!', 401));

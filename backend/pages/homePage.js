@@ -9,8 +9,7 @@ export default function HomePage() {
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!--favicon -->
-        <link rel="icon" type="image/png"
-              href="https://res.cloudinary.com/mdbdrrhm/image/upload/v1699189975/favicons/favicon_jouvmk.png"/>
+        <link rel="icon" type="image/png" href="http://127.0.0.1:5000/favicon.png"/>
               
         <!--normalize styles -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
