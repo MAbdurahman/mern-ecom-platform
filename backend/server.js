@@ -2,7 +2,7 @@
 import dotenv from "dotenv";
 import colors from "colors";
 import app from './app/app.js';
-/*import connectDatabase from './config/databaseConfig.js';*/
+import connectDatabase from './config/databaseConfig.js';
 /*import connectCloudinary from './config/cloudinaryConfig.js';*/
 
 /************************* handling Uncaught exceptions *************************/
@@ -22,7 +22,7 @@ const NODE_ENV = process.env.NODE_ENV;
 const API_URL = process.env.API_ENV || "/api/v1.0/";
 
 /********************** connect mongoDB and Cloudinary **********************/
-/*connectDatabase().then(() => {});*/
+connectDatabase().then(() => {});
 /*connectCloudinary().then(() => {});*/
 /************************* app listening *************************/
 const server = app.listen(PORT, () => {
