@@ -54,9 +54,11 @@ import adminOrderRoutes from '../routes/admin/adminOrderRoutes.js';*/
 /*import commonRoutes from '../routes/commonRoutes.js';*/
 
 import homeRoute from '../routes/homePageRoute.js';
+import productRoutes from '../routes/productRoutes.js';
 
 /****************************** routes ******************************/
 app.use('/api/v1.0/', homeRoute);
+app.use('/api/v1.0/products', productRoutes);
 /*app.use('/api/v1.0/auth', authRoutes);
 
 app.use('/api/v1.0/admin/products', adminProductRoutes);

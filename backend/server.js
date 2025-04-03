@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import colors from "colors";
 import app from './app/app.js';
 import connectDatabase from './config/databaseConfig.js';
-/*import connectCloudinary from './config/cloudinaryConfig.js';*/
+import connectCloudinary from './config/cloudinaryConfig.js';
 
 /************************* handling Uncaught exceptions *************************/
 process.on('uncaughtException', err => {
@@ -23,7 +23,7 @@ const API_URL = process.env.API_ENV || "/api/v1.0/";
 
 /********************** connect mongoDB and Cloudinary **********************/
 connectDatabase().then(() => {});
-/*connectCloudinary().then(() => {});*/
+connectCloudinary().then(() => {});
 /************************* app listening *************************/
 const server = app.listen(PORT, () => {
    console.log(`The server is listening at - http://127.0.0.1:${PORT}${API_URL} in ${NODE_ENV} mode!`.yellow);
