@@ -1,14 +1,35 @@
-import {Fragment} from 'react';
+import React, {Fragment} from 'react';
+import {Routes, Route, useLocation} from 'react-router-dom';
+import ProtectedRoute from '../components/ProtectedRoute.js';
+import AdminPage from '../pages/AdminPage.jsx';
 
 
 export default function App() {
+   const location = useLocation();
 
    return (
       <Fragment>
-         <button className="btn btn-primary">One</button>
-         <button className="btn btn-secondary">Two</button>
-         <button className="btn btn-primary btn-outline">Three</button>
+         <Routes>
+            <Route
+               path={'/admin/*'}
+               element={
+                  <ProtectedRoute>
+                     <AdminRoutes/>
+                  </ProtectedRoute>}/>
+         </Routes>
       </Fragment>
 
    );
 }
+
+const AdminRoutes = () => {
+   return (
+      <Routes>
+         <Route path={'/'} element={<AdminPage/>}/>
+         {/*<Route path="/" element={<Admin/>} />
+         <Route path="/product/create" element={<CreateProduct/>} />
+         <Route path="/product/edit/:id" element={<EditProduct/>} />
+         <Route path="/product/delete/:id" element={<DeleteProduct/>} />*/}
+      </Routes>
+   );
+};
