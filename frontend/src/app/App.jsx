@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {Routes, Route, useLocation} from 'react-router-dom';
-import ProtectedRoute from '../components/ProtectedRoute.js';
+import ProtectedRoute from '../components/ProtectedRoute.jsx';
 import AdminPage from '../pages/AdminPage.jsx';
 
 
@@ -14,7 +14,7 @@ export default function App() {
                path={'/admin/*'}
                element={
                   <ProtectedRoute>
-                     <AdminRoutes/>
+                     <AdminPage/>
                   </ProtectedRoute>}/>
          </Routes>
       </Fragment>
