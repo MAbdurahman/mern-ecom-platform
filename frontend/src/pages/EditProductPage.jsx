@@ -67,7 +67,7 @@ export default function EditProductPage() {
             btn mb-4 w-16 py-1 px-4 tracking-wider uppercase text-sm rounded-xl'>Back</Link>
             <h2 className='text-2xl font-semibold my-4 text-center uppercase'>Edit Product</h2>
             <div className='my-4'>
-               <label htmlFor="productName" className='block text-md  mb-2'>Product Name</label>
+               <label htmlFor="productName" className='block text-md mb-2 font-medium'>Product Name</label>
                <input
                   id="productName"
                   type="text"
@@ -75,7 +75,7 @@ export default function EditProductPage() {
                   onChange={(e) => setProductName(e.target.value)}
                   className='border border-base-300 px-4 py-2 w-full rounded-md'
                />
-               <label htmlFor="productDescription" className='block text-md  mb-2'>Product Description</label>
+               <label htmlFor="productDescription" className='block text-md mb-2 font-medium'>Product Description</label>
                <input
                   id="productDescription"
                   type="text"
@@ -84,7 +84,7 @@ export default function EditProductPage() {
                   className='border border-base-300 px-4 py-2 w-full rounded-md'
                />
 
-               <label htmlFor="productPrice" className='block text-md  mb-2'>
+               <label htmlFor="productPrice" className='block text-md  mb-2 font-medium'>
                   Product Price
                </label>
                <input
@@ -95,7 +95,7 @@ export default function EditProductPage() {
                   className='border border-base-300 px-4 py-2 w-full rounded-md'
                />
 
-               <label htmlFor='productCategory' className='block text-lg mb-2 mt-4'>
+               <label htmlFor='productCategory' className='block text-md mb-2 mt-4 font-medium'>
                   Product Category
                </label>
                <select
