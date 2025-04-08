@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from "axios";
 import { useSnackbar } from "notistack";
 import { Link, useNavigate, useParams } from 'react-router-dom';
-
+import Spinner from "../components/SpinnerComponent.jsx";
 
 
 export default function DeleteProductPage() {
@@ -39,7 +39,7 @@ export default function DeleteProductPage() {
 
    return (
       <div className='p-6 bg-base-100 flex justify-center items-center'>
-         {/*{loading && <Spinner/>}*/}
+         {loading && <Spinner/>}
          <div className='container max-w-lg shadow-lg p-5'>
             <Link to="/admin" className='flex justify-center items-center mb-4 w-16 py-1 px-4
                                           btn uppercase text-sm rounded-xl'>
