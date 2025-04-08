@@ -1,12 +1,14 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import {createRoot} from 'react-dom/client';
 import './index.css';
 import App from './app/App.jsx';
-import { BrowserRouter } from 'react-router-dom';
-
+import {BrowserRouter} from 'react-router-dom';
+import {SnackbarProvider} from 'notistack'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+   <BrowserRouter>
+      <SnackbarProvider>
+         <App/>
+      </SnackbarProvider>
+   </BrowserRouter>
 )
