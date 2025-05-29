@@ -32,7 +32,7 @@ export default function AdminPage() {
                <thead>
                <tr>
                   <th>
-                     <Link to=""
+                     <Link to="/admin/products/create-product"
                            className='font-semibold uppercase bg-neutral-800 hover:bg-neutral-900 py-2 px-4 rounded-lg
                                   shadow-md text-base-100'>
                         Add Product

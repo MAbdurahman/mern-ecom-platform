@@ -2,7 +2,7 @@
   "name": "mern-ecom-platform",
   "version": "1.0.0",
   "description": "MongoDB, Express, React, and NodeJS",
-  "main": "backen/server.js",
+  "main": "backend/server.js",
   "repository": "https://github.com/MAbdurahman/mern-ecom-platform.git",
   "author": "Mahdi Abdurrahman <mdbdrrhm@gmail.com>",
   "license": "MIT",

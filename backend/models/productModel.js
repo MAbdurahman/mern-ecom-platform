@@ -5,7 +5,8 @@ const productSchema = new Schema({
       productName: {
          type: String,
          trim: true,
-         required: [true, 'Product name is required!']
+         required: [true, 'Product name is required!'],
+         maxlength: [100, 'Product name cannot be more than 100'],
       },
       description: {
          type: String,
@@ -15,7 +16,9 @@ const productSchema = new Schema({
       price: {
          type: Number,
          trim: true,
-         required: [true, 'Product price is required']
+         required: [true, 'Product price is required'],
+         maxlength: [6, 'Product price cannot be more than 6 characters!'],
+         default: 0.00,
       },
       image: {
          public_id: {
@@ -29,7 +32,7 @@ const productSchema = new Schema({
       },
       category: {
          type: String,
-         required: true,
+         required: [true, 'Select a category for the product'],
          enum: ['course', 'template']
       }
    },

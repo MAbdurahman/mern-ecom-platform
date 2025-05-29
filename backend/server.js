@@ -20,6 +20,7 @@ colors.enabled = true;
 const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV;
 const API_URL = process.env.API_ENV || "/api/v1.0/";
+const ADDENDUM = `\t...press Ctrl-C to terminate.\n`.white;
 
 /********************** connect mongoDB and Cloudinary **********************/
 connectDatabase().then(() => {});
@@ -27,6 +28,7 @@ connectCloudinary().then(() => {});
 /************************* app listening *************************/
 const server = app.listen(PORT, () => {
    console.log(`The server is listening at - http://127.0.0.1:${PORT}${API_URL} in ${NODE_ENV} mode!`.yellow);
+   console.log(ADDENDUM);
 });
 /********************** handling unhandled promise rejection **********************/
 process.on('unhandledRejection', err => {
