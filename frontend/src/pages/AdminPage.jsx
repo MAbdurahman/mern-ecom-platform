@@ -70,7 +70,6 @@ export default function AdminPage() {
                   </tr>
                ))}*/}
                </tbody>
-
             </table>
          </div>
       </div>

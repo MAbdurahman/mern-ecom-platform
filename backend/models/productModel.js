@@ -17,19 +17,19 @@ const productSchema = new Schema({
          type: Number,
          trim: true,
          required: [true, 'Product price is required'],
-         maxlength: [6, 'Product price cannot be more than 6 characters!'],
+         maxlength: [8, 'Product price cannot be more than 6 characters!'],
          default: 0.00,
       },
-      images: [{
+      image: {
          public_id: {
             type: String,
             required: true
          },
          url: {
             type: String,
-            required: true
-         }
-      }],
+            require: true
+         },
+      } ,
       category: {
          type: String,
          required: [true, 'Select a category for the product'],

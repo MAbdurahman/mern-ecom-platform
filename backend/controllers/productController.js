@@ -1,11 +1,16 @@
 import Product from '../models/productModel.js';
 import cloudinary from '../config/cloudinaryConfig.js';
-import {messageHandler} from '../utils/functionsUtil.js';
+import ErrorHandler from '../utils/errorHandlerUtil.js';
+import asyncHandler from '../utils/asyncHandlerUtil.js';
 
-export const createProduct = async (req, res, next) => {
+export const createProduct = asyncHandler(async (req, res, next) => {
    const {productName, description, price, image, category} = req.body;
 
-   try {
+   if (!req.body.productName || !req.body.price || !req.body.image || !req.body.category) {
+      return next(new ErrorHandler('Product missing fields are required!', 400));
+   }
+
+      try {
       const result = await cloudinary.uploader.upload(image, {
          folder: 'mern-ecom-platform/products',
          resource_type: 'image',
@@ -31,10 +36,9 @@ export const createProduct = async (req, res, next) => {
 
    } catch(err) {
       console.error('Error creating a product: ', err.message);
-      next(messageHandler(res, 'Error creating a product: ' + err.message, false, 500));
+      next(new ErrorHandler(err.message, err.statusCode));
    }
-
-}
+});
 
 export const getAllProducts = async function (req, res, next) {
    try {
@@ -47,7 +51,7 @@ export const getAllProducts = async function (req, res, next) {
       })
    } catch(err) {
       console.error('Error retrieving all products: ', err.message);
-      next(messageHandler(res, 'Error retrieving all products: ' + err.message, false, 500));
+      next(new ErrorHandler(err.message, err.statusCode));
    }
 }
 

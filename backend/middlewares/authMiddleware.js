@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 
 const authMiddleware = async (req, res, next) => {
-   const token = req.cookies?.cloudinary_example;
+   const token = req.cookies?.ecom_platform;
 
    if (!token) {
      return res.status(401).json({
