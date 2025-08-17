@@ -20,7 +20,7 @@ const productSchema = new Schema({
          maxlength: [6, 'Product price cannot be more than 6 characters!'],
          default: 0.00,
       },
-      image: {
+      images: [{
          public_id: {
             type: String,
             required: true
@@ -29,7 +29,7 @@ const productSchema = new Schema({
             type: String,
             required: true
          }
-      },
+      }],
       category: {
          type: String,
          required: [true, 'Select a category for the product'],
