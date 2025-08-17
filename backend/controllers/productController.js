@@ -26,7 +26,7 @@ export const createProduct = async (req, res, next) => {
       res.status(201).json({
          message: 'Product created successfully!',
          success: true,
-         data: newProduct
+         newProduct
       })
 
    } catch(err) {
@@ -43,7 +43,7 @@ export const getAllProducts = async function (req, res, next) {
       res.status(200).json({
          message: 'All products have been retrieved!',
          success: true,
-         data: productList
+         productList
       })
    } catch(err) {
       console.error('Error retrieving all products: ', err.message);
