@@ -6,7 +6,7 @@ const productSchema = new Schema({
          type: String,
          trim: true,
          required: [true, 'Product name is required!'],
-         maxlength: [100, 'Product name cannot be more than 100'],
+         maxlength: [100, 'Product name cannot be more than 100']
       },
       description: {
          type: String,
@@ -18,18 +18,22 @@ const productSchema = new Schema({
          trim: true,
          required: [true, 'Product price is required'],
          maxlength: [8, 'Product price cannot be more than 6 characters!'],
-         default: 0.00,
+         default: 0.00
       },
-      image: {
-         public_id: {
-            type: String,
-            required: true
+      image: [
+         {
+            public_id: {
+               type: String,
+               required: true
+            }
          },
-         url: {
-            type: String,
-            require: true
-         },
-      } ,
+         {
+            url: {
+               type: String,
+               require: true
+            }
+         }
+      ],
       category: {
          type: String,
          required: [true, 'Select a category for the product'],

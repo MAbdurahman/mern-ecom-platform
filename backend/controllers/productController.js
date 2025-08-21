@@ -20,10 +20,10 @@ export const createProduct = asyncHandler(async (req, res, next) => {
          productName,
          description,
          price,
-         image: {
-            public_id: result.public_id,
-            url: result.secure_url
-         },
+         image: [
+            {public_id: result.public_id},
+            {url: result.secure_url}
+         ],
          category,
 
       });

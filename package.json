@@ -12,7 +12,8 @@
     "server": "SET NODE_ENV=development& nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "prod": "SET NODE_ENV=production& node backend/server"
+    "prod": "SET NODE_ENV=production& node backend/server",
+    "seed:data": "node ./backend/utils/seederUtils.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
