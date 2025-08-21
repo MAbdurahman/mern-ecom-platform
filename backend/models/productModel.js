@@ -25,14 +25,12 @@ const productSchema = new Schema({
             public_id: {
                type: String,
                required: true
-            }
-         },
-         {
+            },
             url: {
                type: String,
                require: true
             }
-         }
+         },
       ],
       category: {
          type: String,

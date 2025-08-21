@@ -7,8 +7,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775654/mern-ecom-platform/products/akc6uekcacudvtm2ikph.jpg"
          }
       ],
-      "description":
-         "F. Scott Fitzgerald’s classic novel delves into the opulent yet hollow world of Jay Gatsby, a man obsessed with reclaiming a lost love and achieving the American Dream. Set in the Roaring Twenties, the story explores themes of wealth, love, and disillusionment, offering a poignant critique of the pursuit of happiness through materialism and the elusive nature of the past.",
+      "description": "Are you ready to elevate your coding skills? Our Web Development Course offers a unique opportunity to learn both front-end and back-end technologies, including HTML, CSS3, Python, JavaScript, PHP, C++, and Java. With expertly crafted lessons that blend theory with practice, you'll gain the confidence to create stunning websites and powerful applications from scratch. Join us now and start your journey towards becoming a proficient web developer.",
       "category": "course",
       "price": "79.99"
 
@@ -21,8 +20,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775747/mern-ecom-platform/products/ijwtv2qbfdzbbaim3pje.jpg"
          }
       ],
-      "description":
-         "Harper Lee’s masterpiece follows Scout Finch as she learns about racial injustice and moral integrity in the Deep South. Guided by her father, Atticus Finch, Scout witnesses the courage it takes to stand up for what is right, even in the face of prejudice. A timeless tale of empathy, justice, and the complexities of human nature.",
+      "description": "Unlock your potential with our Full Stack Development Course! Dive into the world of coding and create stunning websites and applications from scratch. This comprehensive program covers everything from HTML, CSS, and JavaScript to backend technologies like Node.js and databases. Perfect for beginners and seasoned developers alike, you'll gain hands-on experience and build a portfolio that shines. Join us and start your journey to becoming a tech wizard today!",
       "category": "course",
       "price": "59.99"
    },
@@ -34,8 +32,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775758/mern-ecom-platform/products/xfaak61ngp4kidr9zsih.jpg"
          }
       ],
-      "description":
-         "George Orwell’s dystopian novel portrays a totalitarian society ruled by Big Brother, where individuality and truth are obliterated. Winston Smith’s quiet rebellion against the oppressive regime reveals the dangers of unchecked power and surveillance. A chilling and prophetic exploration of freedom, manipulation, and the human spirit’s resilience against tyranny.",
+      "description": "Transform your career with our all-encompassing Web Development Course! Designed for aspiring developers at any level, this course covers the fundamentals of HTML and CSS3 alongside robust backend technologies like JavaScript and Angular. Each module combines interactive lessons with hands-on projects that prepare you for real-world challenges in web development. Sign up today to take the first step towards building innovative online solutions!",
       "category": "course",
       "price": "34.99"
    },
@@ -47,8 +44,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775770/mern-ecom-platform/products/iel363pc6hdnbe6h69zw.jpg"
          }
       ],
-      "description":
-         "Jane Austen’s witty and romantic novel centers on Elizabeth Bennet, a spirited young woman navigating societal expectations and her evolving feelings for the enigmatic Mr. Darcy. Through misunderstandings and personal growth, the story highlights the importance of overcoming pride and prejudice to find true love and mutual respect.",
+      "description": " Start your journey in web development with our foundational course covering HTML, CSS, and JavaScript. Enhance your learning experience through practical use of Visual Studio Code, equipping you with the tools needed to design responsive websites. Join us today and turn your ideas into reality!",
       "category": "course",
       "price": "59.99"
    },
@@ -60,8 +56,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775778/mern-ecom-platform/products/ljpgd5vsavgpxn1f0mu8.jpg"
          }
       ],
-      "description":
-         "Herman Melville’s epic tale follows Captain Ahab’s obsessive quest to hunt the white whale, Moby Dick. A profound exploration of fate, obsession, and humanity’s struggle against nature, the novel delves into the psychological depths of its characters, offering a timeless meditation on the consequences of unchecked ambition.",
+      "description": "Unlock your potential in the digital realm with our comprehensive Web Development Course. Dive deep into essential skills like HTML and CSS3 while also mastering backend technologies such as Python, JavaScript, PHP, C++, and Java. This course is designed for beginners and seasoned developers alike, providing hands-on projects and real-world applications to ensure you gain practical experience. Enroll today to build responsive websites and dynamic web applications that stand out!",
       "category": "course",
       "price": "84.99"
    },
@@ -73,8 +68,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775912/mern-ecom-platform/products/qnm4x2fdc4tfi8vonyuc.jpg"
          }
       ],
-      "description":
-         "J.D. Salinger’s iconic novel captures the voice of Holden Caulfield, a disenchanted teenager grappling with identity, alienation, and the transition to adulthood. His candid and often cynical narration provides a raw and intimate portrayal of adolescence, making it a defining work of modern literature.",
+      "description": "Dive into the world of design with our Basic Graphic Design Course! Perfect for aspiring designers, this course provides a solid foundation in graphic design techniques. Enroll now to enhance your skills and bring your ideas to life!",
       "category": "course",
       "price": "84.99"
    },
@@ -86,8 +80,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775925/mern-ecom-platform/products/xi8jecjfmvypij8cqrut.jpg"
          }
       ],
-      "description":
-         "Kristin Hannah’s historical novel tells the story of two sisters in Nazi-occupied France, each fighting for survival in their own way. One joins the Resistance, while the other protects her family at home. A powerful tale of love, sacrifice, and the resilience of women during wartime.",
+      "description": "Transform your artistic vision into reality with Graphic Design Course! This comprehensive program introduces key concepts and software basics, empowering you to create professional-quality graphics. Sign up today and unleash your potential!",
       "category": "course",
       "price": "79.99"
    },
@@ -96,12 +89,10 @@ const productsData = [
       "image": [
          {
             "public_id": "mern-ecom-platform/products/cfpflk6huphrliia76ak.jpg",
-            "url": "\n" +
-               "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775940/mern-ecom-platform/products/cfpflk6huphrliia76ak.jpg"
+            "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775940/mern-ecom-platform/products/cfpflk6huphrliia76ak.jpg"
          }
       ],
-      "description":
-         "Anthony Doerr’s lyrical novel intertwines the lives of a blind French girl and a German soldier during World War II. Their stories converge in a hauntingly beautiful narrative that explores the impact of war on ordinary lives and the enduring power of hope and human connection.",
+      "description": "Dive into the world of design with our Basic Graphic Design Course! Perfect for aspiring designers, this course provides a solid foundation in graphic design techniques. Enroll now to enhance your skills and bring your ideas to life!",
       "category": "course",
       "price": "84.99"
    },
@@ -113,8 +104,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775977/mern-ecom-platform/products/zsx19vse7uhqcces1zky.jpg"
          }
       ],
-      "description":
-         "Markus Zusak’s poignant novel, narrated by Death, follows Liesel, a young girl in Nazi Germany, as she discovers the transformative power of words and stories. A moving exploration of loss, resilience, and the human spirit’s ability to find light in the darkest of times.",
+      "description": "Elevate your understanding of advanced concepts in mathematics through our comprehensive Advance Linear Algebra Course. Explore the intricacies of linear transformations and their applications in real-world problems, equipping you with essential tools for your academic or professional journey.",
       "category": "course",
       "price": "59.99"
 
@@ -127,8 +117,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775986/mern-ecom-platform/products/gjih3qaqmpzrc91beibe.jpg"
          }
       ],
-      "description":
-         "Heather Morris’s novel is based on the true story of Lale Sokolov, a Jewish man forced to tattoo prisoners in Auschwitz. Amidst unimaginable horror, he finds love and hope, showcasing the strength of the human heart and the enduring power of compassion and survival.",
+      "description": "Master the complexities of advanced linear algebra with our specialized course designed for serious learners. From fundamental theories to practical applications, this course provides you with a robust foundation that can propel your career in data science, engineering, or academia. Enroll now to transform your mathematical expertise!",
       "category": "course",
       "price": "59.99"
    },
@@ -140,8 +129,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755775999/mern-ecom-platform/products/q9dkkkf8yu8tlg4cyouo.jpg"
          }
       ],
-      "description":
-         "Charles Belfoure’s gripping novel follows an architect in Nazi-occupied Paris who designs hiding places for Jews. Initially driven by money, he becomes deeply involved in the resistance, risking his life for others. A compelling story of moral awakening, courage, and the complexities of human morality during wartime.",
+      "description": "Elevate your understanding of advanced concepts in mathematics through our comprehensive Advance Linear Algebra Course. Explore the intricacies of linear transformations and their applications in real-world problems, equipping you with essential tools for your academic or professional journey.",
       "category": "course",
       "price": "59.99"
    },
@@ -153,8 +141,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776017/mern-ecom-platform/products/iqxqfwsks0bk74gvyebn.jpg"
          }
       ],
-      "description":
-         "Animal Farm is a satirical allegorical novella by George Orwell, published in 1945. It tells the story of farm animals who revolt against their human owner, aiming to create an equal society, but ultimately face betrayal and oppression under their own leaders, the pigs. It uses a story about farm animals to critique totalitarianism and reflect on the events of the Russian Revolution and Stalinist era",
+      "description": "Unlock your potential with our comprehensive Digital Marketing Course! Whether you're a curious beginner or looking to sharpen your advanced skills, this course has it all. Dive into SEO, social media strategies, and content creation, all designed to elevate your brand in the digital landscape. With engaging lessons and practical insights, you'll gain the confidence to thrive online. Join us and transform your marketing game today!",
       "category": "course",
       "price": "84.99"
 
@@ -167,8 +154,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776037/mern-ecom-platform/products/qmipq6ebcvmuaa8wth8k.jpg"
          }
       ],
-      "description":
-         "Escape from Freedom is a book by Erich Fromm, published in 1941, that explores the complex relationship between individual freedom and the psychological mechanisms that lead people to seek security through authoritarianism. Fromm distinguishes between 'freedom from' (negative freedom) and 'freedom to'(positive freedom), arguing that while modern society offers external freedoms, many individuals struggle with feelings of isolation and anxiety, often opting to relinquish their freedoms in favor of conformity and control.",
+      "description": "Master the fundamentals of discrete mathematics in our engaging Full Discrete Mathematics Course. This course offers an in-depth exploration of crucial mathematical principles, suitable for both novices and experienced learners alike. A calculus prerequisite may enrich your understanding, yet it's not mandatory—join now to elevate your math skills!",
       "category": "course",
       "price": "79.99"
 
@@ -181,8 +167,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776076/mern-ecom-platform/products/wivqwo3au6ouma6c2tfl.jpg"
          }
       ],
-      "description":
-         "\"Mind, Self, and Society\" is a book by George Herbert Mead that explores how individual identity and consciousness are shaped through social interactions. It introduces the concept of symbolic interactionism, emphasizing that the self is a social process developed through communication and behavior within society.",
+      "description": "Ready to enhance your analytical capabilities? Our Scientific Statistics and Probability course is perfect for computer science and STEM majors seeking a strong introduction without any prerequisites. Learn vital statistical techniques and probability fundamentals that will serve as a cornerstone for your future studies or professional endeavors in the dynamic field of technology. Join now to start mastering the art of statistics!",
       "category": "course",
       "price": "79.99"
    },
@@ -191,12 +176,10 @@ const productsData = [
       "image": [
          {
             "public_id": "mern-ecom-platform/products/mxiwknkgfdpqvvfwiztb.jpg",
-            "url": "\n" +
-               "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776091/mern-ecom-platform/products/mxiwknkgfdpqvvfwiztb.jpg"
+            "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776091/mern-ecom-platform/products/mxiwknkgfdpqvvfwiztb.jpg"
          }
       ],
-      "description":
-         "\"Propaganda\" is a book by Edward Bernays, published in 1928, that explores the techniques of public communication and the psychological manipulation of the masses. Bernays argues that propaganda is essential for shaping public opinion and maintaining democracy, presenting it as a tool for both social change and commercial success.",
+      "description": "Elevate your math game with our straightforward algebra course! Master mathematic skills as we break down each topic into easily digestible lessons, ensuring you understand every concept effortlessly. Join us today and conquer algebra with confidence!",
       "category": "course",
       "price": "29.99"
    
@@ -209,8 +192,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776139/mern-ecom-platform/products/ysov4qivro0tkm9luufr.jpg"
          }
       ],
-      "description":
-         "The Art of War is an ancient Chinese military treatise attributed to Sun Tzu, dating back to the 5th century BC. It consists of 13 chapters that cover various aspects of warfare and strategy, emphasizing the importance of understanding both oneself and the enemy to achieve victory without necessarily engaging in battle.",
+      "description": "In e-commerce, dummy text can be utilized to draft product descriptions and category pages before actual product details are available. This helps maintain a consistent layout and design across the site, ensuring that when products are added, they fit seamlessly into the existing structure.",
       "category": "template",
       "price": "24.99"
    },
@@ -222,21 +204,19 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776151/mern-ecom-platform/products/ewzzpajd9b0gmiwpfgke.jpg"
          }
       ],
-      "description":
-         "The Art of War is an ancient Chinese military treatise attributed to Sun Tzu, dating back to the 5th century BC. It consists of 13 chapters that cover various aspects of warfare and strategy, emphasizing the importance of understanding both oneself and the enemy to achieve victory without necessarily engaging in battle.",
+      "description": "In e-commerce, dummy text can be utilized to draft product descriptions and category pages before actual product details are available. This helps maintain a consistent layout and design across the site, ensuring that when products are added, they fit seamlessly into the existing structure.",
       "category": "template",
       "price": "24.99"
    },
    {
-      "productName": "Politic Template",
+      "productName": "Political Template",
       "image": [
          {
             "public_id": "mern-ecom-platform/products/qhijwvajirbwy4rmpswa.jpg",
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776164/mern-ecom-platform/products/qhijwvajirbwy4rmpswa.jpg"
          }
       ],
-      "description":
-         "The Art of War is an ancient Chinese military treatise attributed to Sun Tzu, dating back to the 5th century BC. It consists of 13 chapters that cover various aspects of warfare and strategy, emphasizing the importance of understanding both oneself and the enemy to achieve victory without necessarily engaging in battle.",
+      "description": "In e-commerce, dummy text can be utilized to draft product descriptions and category pages before actual product details are available. This helps maintain a consistent layout and design across the site, ensuring that when products are added, they fit seamlessly into the existing structure.",
       "category": "template",
       "price": "24.99"
    },
@@ -248,8 +228,7 @@ const productsData = [
             "url": "https://res.cloudinary.com/mdbdrrhm/image/upload/v1755776273/mern-ecom-platform/products/zqqtcednsacg9m7ewbc8.jpg"
          }
       ],
-      "description":
-         "The Art of War is an ancient Chinese military treatise attributed to Sun Tzu, dating back to the 5th century BC. It consists of 13 chapters that cover various aspects of warfare and strategy, emphasizing the importance of understanding both oneself and the enemy to achieve victory without necessarily engaging in battle.",
+      "description": "In e-commerce, dummy text can be utilized to draft product descriptions and category pages before actual product details are available. This helps maintain a consistent layout and design across the site, ensuring that when products are added, they fit seamlessly into the existing structure.",
       "category": "template",
       "price": "24.99"
    }
